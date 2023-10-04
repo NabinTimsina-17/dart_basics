@@ -1,6 +1,6 @@
-void main() {
+void main() async {
   print('Task 1');
-  Future.delayed(Duration(seconds: 5), () {
+  await Future.delayed(Duration(seconds: 3), () {
     print('Task 2 (asynchronous)');
   });
   print('Task 3');
