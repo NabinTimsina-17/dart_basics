@@ -8,7 +8,7 @@ class SingletonExample{
       _instance = SingletonExample._();
     }
       return _instance!;
-    
+          
   }
 }
 
