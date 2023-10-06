@@ -10,7 +10,6 @@ class FlutterCourse{
     print("There are a lot of learning $students");
     print("Student brings their $Laptop");
   }
-  
   }
 
   void main(){
